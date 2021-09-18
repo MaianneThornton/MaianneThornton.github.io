@@ -54,6 +54,14 @@ Body {
   font-weight: 700;
 }
 
+.container a {
+  color: #485681;
+}
+
+.container a:hover {
+  letter-spacing: 5px;
+}
+
 .img-thumbnail {
   height: 200px;
 }

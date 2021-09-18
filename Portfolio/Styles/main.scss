@@ -53,8 +53,17 @@ Body {
     h1 {
       font-weight: 700;
     }
+    a {
+      color: $main_color;
+      &:hover {
+        letter-spacing: 5px;
+      }
+    }
 }
 
+
+
+// Introduction
 .img-thumbnail {
   height: 200px;
 }
