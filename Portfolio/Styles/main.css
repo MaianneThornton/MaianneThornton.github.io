@@ -3,6 +3,7 @@ Body {
   font-family: "Glory", sans-serif;
   margin: 0;
   padding: 0;
+  background-color: thistle;
 }
 
 .container-fluid {
@@ -42,5 +43,59 @@ Body {
 .navbar {
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.container {
+  background-color: white;
+  color: #485681;
+}
+
+.container h1 {
+  font-weight: 700;
+}
+
+.img-thumbnail {
+  height: 200px;
+}
+
+#footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100px;
+  background-color: thistle;
+  margin-bottom: 0;
+  border-top: 5px solid #485681;
+}
+
+#footer p {
+  font-size: 15px;
+}
+
+#footer #logo {
+  width: 100px;
+}
+
+#footer .fa {
+  font-size: 25px;
+}
+
+#footer li {
+  list-style: none;
+}
+
+#footer a {
+  color: #485681;
+}
+
+#footer a:hover {
+  color: white;
+  border-color: white;
 }
 /*# sourceMappingURL=main.css.map */

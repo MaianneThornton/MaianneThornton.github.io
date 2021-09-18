@@ -8,6 +8,7 @@ Body {
   font-family: "Glory", sans-serif;
   margin: 0;
   padding: 0;
+  background-color: $bg_color;
 }
 
 // Navbar
@@ -43,4 +44,51 @@ Body {
 .navbar {
   margin-top: 0;
   margin-bottom: 0;
+}
+
+// Main
+.container {
+  background-color: $highlight_color;
+  color: $main_color;
+    h1 {
+      font-weight: 700;
+    }
+}
+
+.img-thumbnail {
+  height: 200px;
+}
+
+// Footer
+#footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100px;
+  background-color: $bg_color;
+  margin-bottom: 0;
+  border-top: 5px solid $main_color;
+
+  p {
+    font-size: 15px;
+  }
+  #logo {
+    width: 100px;
+  }
+
+  .fa {
+    font-size: 25px;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  a {
+    color: $main_color;
+    &:hover {
+      color: $highlight_color;
+      border-color: $highlight_color;
+    }
+  }
 }
