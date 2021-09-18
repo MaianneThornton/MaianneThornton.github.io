@@ -1,0 +1,46 @@
+@import "values";
+
+// Google Font
+@import url("https://fonts.googleapis.com/css2?family=Glory:ital,wght@0,400;0,700;1,400&display=swap");
+// font-family: 'Glory', sans-serif;
+
+Body {
+  font-family: "Glory", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+// Navbar
+.container-fluid {
+  font-size: 20px;
+  background-color: $bg_color;
+  .navbar-brand {
+    background-color: $bg_color;
+    font-size: 20px;
+    font-weight: bold;
+    color: $main_color;
+    margin-right: 5px;
+    border-bottom: 5px solid $main_color;
+    padding: 10px;
+    &:hover {
+      color: $highlight_color;
+    }
+  }
+}
+.navbar-collapse {
+  background-color: $main_color;
+  border-bottom: 5px solid $bg_color;
+  padding: 2px;
+}
+.navbar-collapse .navbar-nav .nav-item .nav-link {
+  color: $bg_color;
+  &:hover {
+    color: $highlight_color;
+    font-weight: 700;
+  }
+}
+
+.navbar {
+  margin-top: 0;
+  margin-bottom: 0;
+}
