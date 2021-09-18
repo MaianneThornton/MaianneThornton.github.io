@@ -50,6 +50,7 @@ Body {
 .container {
   background-color: $highlight_color;
   color: $main_color;
+  padding-bottom: 10px;
     h1 {
       font-weight: 700;
     }
@@ -66,6 +67,15 @@ Body {
 // Introduction
 .img-thumbnail {
   height: 200px;
+}
+
+
+// Techical Skills
+.skill-box {
+  border: 5px solid $main_color;
+  width: 29vw;
+  height: 20vh;
+  padding: 20px;
 }
 
 // Footer

@@ -48,6 +48,7 @@ Body {
 .container {
   background-color: white;
   color: #485681;
+  padding-bottom: 10px;
 }
 
 .container h1 {
@@ -64,6 +65,13 @@ Body {
 
 .img-thumbnail {
   height: 200px;
+}
+
+.skill-box {
+  border: 5px solid #485681;
+  width: 29vw;
+  height: 20vh;
+  padding: 20px;
 }
 
 #footer {
