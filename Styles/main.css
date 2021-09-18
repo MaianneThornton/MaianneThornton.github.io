@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Glory:ital,wght@0,400;0,700;1,400&display=swap");
+#future, #here {
+  text-align: center;
+  font-size: 75px;
+  color: thistle;
+}
+
+Body {
+  font-family: "Glory", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid {
+  font-size: 20px;
+  background-color: thistle;
+}
+
+.container-fluid .navbar-brand {
+  background-color: thistle;
+  font-size: 20px;
+  font-weight: bold;
+  color: #485681;
+  margin-right: 5px;
+  border-bottom: 5px solid #485681;
+  padding: 10px;
+}
+
+.container-fluid .navbar-brand:hover {
+  color: white;
+}
+
+.navbar-collapse {
+  background-color: #485681;
+  border-bottom: 5px solid thistle;
+  padding: 2px;
+}
+
+.navbar-collapse .navbar-nav .nav-item .nav-link {
+  color: thistle;
+}
+
+.navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+  color: white;
+  font-weight: 700;
+}
+
+.navbar {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#showcase {
+  background-image: url(https://images.pexels.com/photos/3278643/pexels-photo-3278643.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-color: white;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 82vh;
+}
+
+#showcase .btn-outline-info {
+  background-color: #485681;
+  color: thistle;
+  border-color: thistle;
+  border-width: 3px;
+}
+
+#showcase .btn-outline-info:hover {
+  background-color: thistle;
+  color: #485681;
+  border-color: #485681;
+  border-width: 3px;
+}
+
+#future {
+  text-shadow: 4px 4px #485681;
+}
+
+#here {
+  text-shadow: 4px 4px #485681;
+}
+
+#footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100px;
+  background-color: thistle;
+  margin-bottom: 0;
+  border-top: 5px solid #485681;
+}
+
+#footer p {
+  font-size: 15px;
+}
+
+#footer #logo {
+  width: 100px;
+}
+
+#footer .fa {
+  font-size: 25px;
+}
+
+#footer li {
+  list-style: none;
+}
+
+#footer a {
+  color: #485681;
+}
+
+#footer a:hover {
+  color: white;
+  border-color: white;
+}
+
+@media (max-width: 768px) {
+  #showcase {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 87vh;
+  }
+  #future {
+    font-size: 10vw;
+    font-weight: 700;
+    color: #485681;
+    text-shadow: none;
+  }
+}
+/*# sourceMappingURL=main.css.map */
