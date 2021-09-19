@@ -62,20 +62,39 @@ Body {
     }
 }
 
-
-
 // Introduction
 .img-thumbnail {
   height: 200px;
 }
 
-
-// Techical Skills
+// Technical Skills
 .skill-box {
   border: 5px solid $main_color;
   width: 29vw;
   height: 20vh;
   padding: 20px;
+}
+
+// Projects
+.inner-content {
+  color: $bg_color;
+  font-weight: 700;
+  background-color: $main_color;
+  a {
+    color: $bg_color;
+    text-decoration: none;
+    &:hover {
+      color: $bg_color;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+  }
+  .btn-outline-info {
+    background-color: $main_color;
+    color: $bg_color;
+    border-color: $bg_color;
+    border-width: 3px;}
 }
 
 // Footer

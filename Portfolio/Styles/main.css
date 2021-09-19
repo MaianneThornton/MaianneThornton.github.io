@@ -74,6 +74,31 @@ Body {
   padding: 20px;
 }
 
+.inner-content {
+  color: thistle;
+  font-weight: 700;
+  background-color: #485681;
+}
+
+.inner-content a {
+  color: thistle;
+  text-decoration: none;
+}
+
+.inner-content a:hover {
+  color: thistle;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.inner-content .btn-outline-info {
+  background-color: #485681;
+  color: thistle;
+  border-color: thistle;
+  border-width: 3px;
+}
+
 #footer {
   display: -webkit-box;
   display: -ms-flexbox;
