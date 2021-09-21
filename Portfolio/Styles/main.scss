@@ -33,6 +33,7 @@ Body {
   border-bottom: 5px solid $bg_color;
   padding: 2px;
 }
+
 .navbar-collapse .navbar-nav .nav-item .nav-link {
   color: $bg_color;
   &:hover {
@@ -64,7 +65,8 @@ Body {
 
 // Introduction
 .img-thumbnail {
-  height: 200px;
+  height: 254px;
+  background-color: $main_color;
 }
 
 // Technical Skills
@@ -128,5 +130,20 @@ Body {
       color: $highlight_color;
       border-color: $highlight_color;
     }
+  }
+}
+
+// Media Queries
+@media (max-width: 768px) {
+  .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
