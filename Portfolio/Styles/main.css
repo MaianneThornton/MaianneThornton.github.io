@@ -63,11 +63,6 @@ Body {
   letter-spacing: 5px;
 }
 
-.img-thumbnail {
-  height: 254px;
-  background-color: #485681;
-}
-
 .skill-box {
   border: 5px solid #485681;
   width: 29vw;
