@@ -142,12 +142,14 @@ Body {
     display: grid;
     -ms-grid-columns: 100%;
         grid-template-columns: 100%;
+    justify-items: center;
   }
   .row {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 100%;
         grid-template-columns: 100%;
+    justify-items: center;
   }
 }
 /*# sourceMappingURL=main.css.map */

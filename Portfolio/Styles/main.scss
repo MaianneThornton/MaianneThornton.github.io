@@ -52,19 +52,18 @@ Body {
   background-color: $highlight_color;
   color: $main_color;
   padding-bottom: 10px;
-    h1 {
-      font-weight: 700;
+  h1 {
+    font-weight: 700;
+  }
+  a {
+    color: $main_color;
+    &:hover {
+      letter-spacing: 5px;
     }
-    a {
-      color: $main_color;
-      &:hover {
-        letter-spacing: 5px;
-      }
-    }
+  }
 }
 
 // Introduction
-
 
 // Technical Skills
 .skill-box {
@@ -93,7 +92,8 @@ Body {
     background-color: $main_color;
     color: $bg_color;
     border-color: $bg_color;
-    border-width: 3px;}
+    border-width: 3px;
+  }
 }
 
 // Footer
@@ -135,9 +135,12 @@ Body {
   .main {
     display: grid;
     grid-template-columns: 100%;
+    justify-items: center;
+
   }
-  .row{
+  .row {
     display: grid;
     grid-template-columns: 100%;
+    justify-items: center;
   }
 }
