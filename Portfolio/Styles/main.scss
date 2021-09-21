@@ -133,14 +133,11 @@ Body {
 // Media Queries
 @media (max-width: 768px) {
   .main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 100%;
   }
-  #intro {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  .row{
+    display: grid;
+    grid-template-columns: 100%;
   }
 }
