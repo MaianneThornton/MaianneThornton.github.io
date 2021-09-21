@@ -96,3 +96,13 @@ p {
   color: white;
   transform: rotateY(180deg);
 }
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+  #flex {
+    display: grid;
+    grid-template-columns: 100%;
+    justify-items: center;
+  }
+}
