@@ -117,6 +117,13 @@ Body {
 
 // Media Queries
 @media (max-width: 768px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   #showcase {
     display: flex;
     flex-direction: column;
@@ -124,10 +131,11 @@ Body {
     align-items: center;
     height: 87vh;
   }
-  #future {
-    font-size: 10vw;
-    font-weight: 700;
-    color: $main_color;
-    text-shadow: none;
+
+  .contacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
