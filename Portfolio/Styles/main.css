@@ -3,7 +3,7 @@ Body {
   font-family: "Glory", sans-serif;
   margin: 0;
   padding: 0;
-  background-color: thistle;
+  background-color: white;
 }
 
 .container-fluid {
@@ -47,6 +47,7 @@ Body {
 
 .container {
   background-color: white;
+  border: 2px solid #485681;
   color: #485681;
   padding-bottom: 10px;
 }
@@ -63,11 +64,19 @@ Body {
   letter-spacing: 5px;
 }
 
+.intro {
+  background-color: thistle;
+}
+
 .skill-box {
   border: 5px solid #485681;
   width: 29vw;
   height: 20vh;
   padding: 20px;
+}
+
+.projects {
+  background-color: thistle;
 }
 
 .inner-content {
@@ -93,6 +102,10 @@ Body {
   color: thistle;
   border-color: thistle;
   border-width: 3px;
+}
+
+.certificates {
+  background-color: thistle;
 }
 
 #footer {
