@@ -1,4 +1,5 @@
-
+let testing = "hi, hello"
+console.log(testing);
 //Get the button:
 mybutton = document.getElementById("myBtn");
 
