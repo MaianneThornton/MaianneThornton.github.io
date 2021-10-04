@@ -1,5 +1,3 @@
-let test = "hi there beautiful"
-console.log(test);
 
 //Get the button:
 mybutton = document.getElementById("myBtn");
