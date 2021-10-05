@@ -84,7 +84,6 @@ Body {
     &:hover {
       letter-spacing: 5px;
     cursor: pointer; 
-
     }
   }
 }
@@ -97,6 +96,7 @@ Body {
 // .skills {
 //   // background-color: $bg_color;
 // }
+
 .skill-box {
   border: 5px solid $main_color;
   width: 29vw;
@@ -133,6 +133,15 @@ Body {
 // Certificates
 .certificates {
   background-color: $bg_color;
+}
+
+//Resume
+.resume {
+  img {
+    &:hover {
+      height: 50rem;
+    }
+  }
 }
 
 // Footer

@@ -131,6 +131,10 @@ Body {
   background-color: thistle;
 }
 
+.resume img:hover {
+  height: 50rem;
+}
+
 #footer {
   display: -webkit-box;
   display: -ms-flexbox;
