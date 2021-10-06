@@ -6,3 +6,14 @@
 body {
   background-color: aliceblue;
 }
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+  .container {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
