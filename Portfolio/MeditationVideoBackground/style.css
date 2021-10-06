@@ -104,3 +104,13 @@ i {
   font-size: 48px;
   margin: 0 5px;
 }
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+  #flex {
+    display: grid;
+    grid-template-columns: 100%;
+    justify-items: center;
+  }
+}
