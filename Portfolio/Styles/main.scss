@@ -191,4 +191,10 @@ Body {
     grid-template-columns: 100%;
     justify-items: center;
   }
+  .res {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-wrap: wrap;
+  }
 }
