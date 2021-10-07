@@ -8,6 +8,7 @@ body {
   background-color: black;
 }
 
+
 #game-board {
 background-color: RGBA(143, 255, 133,.7);
 width: 100vmin;
@@ -18,7 +19,7 @@ grid-template-columns: repeat(21, 1fr);
 }
 
 .snake {
-background-color: black;
+background-color: purple;
 border: .25vmin solid gray
 }
 
