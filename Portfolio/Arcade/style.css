@@ -11,8 +11,16 @@ body{
   overflow:hidden;
 }
 
+img {
+  height: 60vh;
+  width: fit-content;
+}
+
 .container {
   z-index: 99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 canvas{
 	position:absolute;
