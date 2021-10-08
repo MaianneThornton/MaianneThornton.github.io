@@ -11,6 +11,13 @@ body {
   overflow: hidden;
 }
 
+.text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
 img {
   height: 60vh;
   width: fit-content;
@@ -35,12 +42,14 @@ canvas {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
   }
   .container {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50vw;
+  }
+  img{
+    width: 90vw;
   }
 }
