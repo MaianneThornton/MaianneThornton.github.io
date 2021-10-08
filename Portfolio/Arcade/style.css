@@ -28,3 +28,12 @@ canvas {
   left: 0;
   z-index: -99;
 }
+
+/* Media Queries */
+@media (max-width: 768px) {
+  #flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
