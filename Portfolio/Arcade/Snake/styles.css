@@ -19,11 +19,11 @@ grid-template-columns: repeat(21, 1fr);
 }
 
 .snake {
-background-color: purple;
+background-color: black;
 border: .25vmin solid gray
 }
 
 .food {
-background-color: black;
-border: .25vmin solid gray
+background-color: purple;
+border: .35vmin solid gray
 }
