@@ -21,6 +21,15 @@ Body {
   padding: 10px;
 }
 
+.container-fluid .navbar-brand a {
+  color: #485681;
+  text-decoration: none;
+}
+
+.container-fluid .navbar-brand a:hover {
+  color: white;
+}
+
 .container-fluid .navbar-brand:hover {
   color: white;
 }

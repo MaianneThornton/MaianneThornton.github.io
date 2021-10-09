@@ -43,6 +43,13 @@ Body {
 .navbar {
   margin-top: 0;
   margin-bottom: 0;
+    a {
+      color: $main_color;
+      text-decoration: none;
+      &:hover{
+        color: $highlight_color;
+      }
+    }
 }
 
 // Showcase
