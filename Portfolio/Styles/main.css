@@ -54,6 +54,14 @@ Body {
   margin-bottom: 0;
 }
 
+.navbar  a {
+  color: #485681;
+  text-decoration: none;
+}
+.navbar a:hover {
+  color: white;
+}
+
 #myBtn {
   display: none;
   position: fixed;
