@@ -29,6 +29,7 @@ img {
   justify-content: center;
   align-items: center;
 }
+
 canvas {
   position: absolute;
   top: 0;
@@ -38,18 +39,24 @@ canvas {
 
 /* Media Queries */
 @media (max-width: 768px) {
-  .text{
+  .text {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
   }
+}
+
+@media (max-width: 768px) {
   .container {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  img{
+}
+
+@media (max-width: 768px) {
+  img {
     width: 90vw;
   }
 }
