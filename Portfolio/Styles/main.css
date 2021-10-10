@@ -21,19 +21,6 @@ Body {
   padding: 10px;
 }
 
-.container-fluid .navbar-brand a {
-  color: #485681;
-  text-decoration: none;
-}
-
-.container-fluid .navbar-brand a:hover {
-  color: white;
-}
-
-.container-fluid .navbar-brand:hover {
-  color: white;
-}
-
 .navbar-collapse {
   background-color: #485681;
   border-bottom: 5px solid thistle;
@@ -54,11 +41,16 @@ Body {
   margin-bottom: 0;
 }
 
-.navbar  a {
+.navbar a {
   color: #485681;
   text-decoration: none;
 }
+
 .navbar a:hover {
+  color: white;
+}
+
+.navbar:hover {
   color: white;
 }
 

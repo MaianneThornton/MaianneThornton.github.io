@@ -23,16 +23,6 @@ Body {
     margin-right: 5px;
     border-bottom: 5px solid $main_color;
     padding: 10px;
-    a {
-      color: $main_color;
-      text-decoration: none;
-      &:hover{
-        color: $highlight_color;
-      }
-    }
-    &:hover {
-      color: $highlight_color;
-    }
   }
 }
 .navbar-collapse {
@@ -52,6 +42,16 @@ Body {
 .navbar {
   margin-top: 0;
   margin-bottom: 0;
+  a {
+    color: $main_color;
+    text-decoration: none;
+    &:hover{
+      color: $highlight_color;
+    }
+  }
+  &:hover {
+    color: $highlight_color;
+  }
 }
 
 //Scroll to top button
