@@ -7,6 +7,16 @@ body {
   background-color: aliceblue;
 }
 
+.res1{
+  height: min-content;
+  width: 45vw;
+}
+
+.res2{
+  height: min-content;
+  width: 40vw;
+}
+
 /* Media Queries */
 
 @media (max-width: 768px) {
